@@ -20,7 +20,7 @@ function seciminiEle(){
 
 
     if(menimSecimim==0 && komputer ==0){
-        netice = 'Try again'
+        netice = 'Yeniden cehd ele'
     }
 
     else if(menimSecimim ==0 && komputer ==1){
@@ -33,7 +33,7 @@ function seciminiEle(){
         netice = 'Qazandiniz'
     }
     else if(menimSecimim ==1 && komputer ==1){
-        netice ='Try again'
+        netice ='Yeniden cehd ele'
     }
     else if(menimSecimim ==1 && komputer ==2){
         netice = 'Meglub oldunuz'
@@ -45,7 +45,7 @@ function seciminiEle(){
         netice = 'Qazandiniz'
     }
     else {
-            netice = 'Try again'
+            netice = 'Yeniden cehd ele'
         }
 
     neticeniYaz.innerHTML = netice
