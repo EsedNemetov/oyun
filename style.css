@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #00b09b;  
+    background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  
+    background: linear-gradient(to right, #96c93d, #00b09b); 
+
+}
+#siyahi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: auto;
+    padding: 2rem;
+    border: thin solid white;
+    border-radius: 5rem 0 5rem 0;
+    
+    
+}
+#siyahi img{
+    flex: 1 1 10rem;
+    border-radius: 50%;
+    max-width: 22%;
+}
+#netice{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 30px;
+    background: chartreuse;
+    border-radius: 50%;
+    border: thin solid green;
+    border-radius: 5rem 0 5rem 0;
+    margin: 2rem;
+    
+    
+
+}
